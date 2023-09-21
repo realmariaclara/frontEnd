@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas com bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tabelas de Músicas</h1>
+        <table class="table table-striped table-danger">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Álbum</th>
+                    <th>Título</th>
+                    <th>Artista/Banda</th>
+                    <th>Gênero Musical</th>
+                    <th>Classificação</th>
+                    <th>Editar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="align-middle">
+                    <td>1</td>
+                    <td><img class="img-thumbnail" style="height: 145px;" src="https://akamai.sscdn.co/uploadfile/letras/albuns/d/0/0/2/1703961676631021.jpg" alt=""></td>
+                    <td>Escolhas</td>
+                    <td>Zé Neto & Cristiano</td>
+                    <td class="d-none d-md-table-cell">Sertanejo</td>
+                    <td>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </td>
+                    <td>
+                        <button class="btn btn-outline-info">Editar</button>
+                        <button class="btn btn-outline-danger">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img class="img-thumbnail" style="height: 145px;" src="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/10/15/1005806555-as-patroas-2-som-livre.jpg" alt=""></td>
+                    <td>Patroas 35%</td>
+                    <td>Marília Mendonça, Maiara & Maraisa</td>
+                    <td>Sertanejo</td>
+                    <td>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </td>
+                    <td>
+                        <button class="btn btn-outline-info">Editar</button>
+                        <button class="btn btn-outline-danger">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img class="img-thumbnail" style="height: 145px;" src="https://akamai.sscdn.co/uploadfile/letras/albuns/a/e/2/b/285531444326430.jpg" alt=""></td>
+                    <td>A hora é agora</td>
+                    <td>Jorge & Mateus</td>
+                    <td>Setanejo</td>
+                    <td>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </td>
+                    <td>
+                        <button class="btn btn-outline-info">Editar</button>
+                        <button class="btn btn-outline-danger">Excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <nav>
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a href="#" class="page-link">Anterior</a>
+                    </li>
+                    <li class="page-item active">
+                        <a href="#" class="page-link">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">Próximo</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+</body>
+</html>

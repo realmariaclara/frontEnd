@@ -1,0 +1,9 @@
+.img{
+    background-image: url(edward.jpg);
+    background-size: cover;
+}
+
+body{
+    background: rgb(106,178,228);
+background: linear-gradient(90deg, rgba(106,178,228,1) 5%, rgba(209,10,188,1) 48%, rgba(177,106,218,0.9445028011204482) 87%);
+}

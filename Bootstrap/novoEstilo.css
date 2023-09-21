@@ -1,0 +1,13 @@
+:root{
+    --primary: #912020;
+    --secondary: #4944b9e;
+
+}
+
+.text-primary{
+    color: var(--primary)!important;
+}
+
+.bg-seccess{
+    color: var(--secondary) !important;
+}

@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Maquiagem</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar bg-danger-subtle navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-dark">
+                <i class="bi bi-gem"></i>
+                Mari Make
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse">
+                <a href="#" class="nav-link text-dark">Principal</a>
+
+                <a href="#" class="nav-link text-dark ms-3">
+                    <i class="bi bi-telephone"></i>
+                    Contato
+                </a>
+
+            </div>
+
+            <div class="navbar-nav">
+                <a href="Ex07.Cadastro.html" class="nav-link text-dark">
+                    <i class="bi bi-person-fill-add"></i>
+                    Quero me cadastrar
+                </a>
+                <a href="#" class="nav-link text-dark">
+                    <i class="bi bi-person-circle"></i>
+                    Entrar
+                </a>
+            </div>
+
+        </div>
+    </nav>
+    <main class="container mt-3">
+        <section id="meucarrossel" class="carousel carousel-dark-slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img class="banner w-100 d-block "
+                        src="https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-high-end-atmosphere-simple-wind-makeup-area-banner-image_194935.jpg?Random1">
+                    <div class="carousel-caption h-100 d-flex justify-content-center align-items-center text-black">
+                        <div>
+                            <h4>VENHA CONHECER NOSSO SITE!!</h4>
+                            <p>Muitos produtos incríveis para você.</p>
+                            <button
+                                class="p-3 text-tertiary-emphasis bg-tertiary-subtle border border-tertiary-subtle rounded-3">Saiba
+                                Mais</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="banner w-100 d-block"
+                        src="https://cdn.dooca.store/36846/files/banner-casa-da-beleza-dooca-2-03.jpg?v=1650638918&webp=0?Random2"
+                        alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="banner w-100 d-block"
+                        src="https://img.freepik.com/vetores-gratis/banner-de-venda-de-beleza-realista-com-oferta_52683-94987.jpg?Random3"
+                        alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="banner w-100 d-block"
+                        src="https://i0.wp.com/raphaeloliver.com/wp-content/uploads/2021/05/PT_banner-5.jpg?fit=800%2C288&ssl=1?Random4"
+                        alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="banner w-100 d-block"
+                        src="https://cursosescolaanahickmann.com.br/wp-content/uploads/2023/06/Banner-Curso-Maquiagem-1024x480.jpg?Random5"
+                        alt="">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próxima</span>
+            </button>
+        </section>
+
+        <div class="d-flex justify-content-between">
+            <form>
+                <div class="input-group mt-2">
+                    <input type="search" placeholder="Procurar" class="form-control">
+                    <button type="submit" class="btn btn-danger">Buscar</button>
+                </div>
+            </form>
+
+            <div class="d-flex justify-content-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <hr>
+
+        <section class="row">
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://oceane.vtexassets.com/arquivos/ids/197871/K310_kit_2_esponjas_de_maquiagem_flat_blend_1.jpg?v=1779821275?TRandom1"
+                    alt="">
+                <div class="card-header text-center">
+                    R$45,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Esponja Mari Saad</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://static.makieoficial.com.br//produto/diluidor-de-maquiagem-fechado_20806_254.jpg?TRandom2"
+                    alt="">
+                <div class="card-header text-center">
+                    R$73,87
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Diluidor de Maquiagem - Makiê</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://imgmarketplace.lojasrenner.com.br/20001/1124/700541961/751744583/0.jpeg?" alt="">
+                <div class="card-header text-center ">
+                    R$65,20
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kit Retoque de Sobrancelhas</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://img.lojasrenner.com.br/item/827448794/large/1.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$49,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Gloss Labial - Franciny Ehlke</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://img.lojasrenner.com.br/item/814254667/large/5.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$55,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Gloss Labial - Minnie Mouse</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://img.lojasrenner.com.br/item/817249011/large/3.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$109,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Paleta Multifuncional - Minnie Mouse</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://img.lojasrenner.com.br/item/797475168/large/1.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$59,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Máscara para cílios - Karen Bachini</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://img.lojasrenner.com.br/item/545586208/large/1.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$85,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Corretivo Líquido Maybelline </h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://img.lojasrenner.com.br/item/634815586/large/1.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$59,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pó Facial Aveludado - Bruna Tavares</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://imgmarketplace.lojasrenner.com.br/20001/3584/7010701617580/7510703219892/0.jpeg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$25,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Curvex Profissional - Pink</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://www.atrevida.com.br/wp-content/uploads/2021/05/4-21.png" alt="">
+                <div class="card-header text-center ">
+                    R$19,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Caneta Delineadora - Mari Saad</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9AMENCmK214ziLJZt54X_ems0-mWsE_cGTT-CssTLHsXbD7khOfAWASshnNg95B_k6gQ&usqp=CAU"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$14,40
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Água Micelar - MELU </h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.sistemawbuy.com.br/arquivos/9741ac8c61cc458f2cab88298c372647/produtos/64496726d556f/7cdb04dc983c0066e34a8e73ffadb50d-64496729cfb68.png"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$22,75
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sérum Detox Melancia Melu </h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://m.media-amazon.com/images/I/71IPxvcI+4L._AC_UF1000,1000_QL80_.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$14,40
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kit de pincéis - Real Techniques</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://img.lojasrenner.com.br/item/856246446/large/1.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$60,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kit de 4 pincéis - Barbie </h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/E93289/E93289-C.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$69,19
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Eudora Base Líquida - Niina Secrets</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://http2.mlstatic.com/D_NQ_NP_734165-MLB51233274023_082022-O.webp"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$52,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Eudora Niina Skin - Sérum Multifuncional Antioleosidade</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://cdn.awsli.com.br/2132/2132264/produto/202598816be7eec1ff7.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$89,99
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Eudora Bruma Fixadora Glam Efeito Lifting</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://m.media-amazon.com/images/I/61Gx87kPaaL.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$89,99
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Eudora Base Líquida Glam Skin</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://magazinefeminina.com.br/wp-content/uploads/2023/03/6_resenha-glam-primer-facial-glow-glam-skin-perfection-15ml-eudora.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$59,99
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Primer Facial Glow Glam Skin Perfection</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/akaicosmeticos/media/uploads/produtos/foto/xldvfqbj/file.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$42,95
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Batom Eudora Glam</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x450/2016/2016735/produto/217270203/images--27--4b2eohhjl4.jpeg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$20,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Gel modelador para Sobrancelhas - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://images.tcdn.com.br/img/img_prod/750218/lip_tint_melu_by_ruby_rose_7273_1_866dc859a70c54aa17ff572fbe5cf765.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$11,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lip Tint - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://lojabelamoca.com.br/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-01-at-15.33.30-2.jpeg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$25,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sérum facial - Coco - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://foryoumake.com.br/wp-content/uploads/2023/06/15188917230_15188916463_15188916042_ruby20rose20lenco20facial.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$21,80
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lenços Facial Removedor - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.dooca.store/68127/products/3xvljpcje3ywbuhpjjxb9fvcnsblncvbbgbs.jpeg?v=1677286085"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$12,60
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Corretivo Líquido - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x700/1379/1379631/produto/226762916/20230725_115415340_ios-zz9lgvjqfk.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$7,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lápis para Sobrancelhas 2x1 - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://d2r9epyceweg5n.cloudfront.net/stores/001/670/539/products/730559a1a9cf6fcca9944e0197e14536awsaccesskeyidakiatclmsgfx4j7tu445expires1695375461signaturedftkj7gqwhotyqqwgkxuvyrq4xk3d-ace2635ef50451c4f316927834882954-1024-1024.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$16,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Batom Líquido Matte - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://cdn.meucatalogodigital.com/lojaimperiomakeup/2197169-3.jpeg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$12,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Gel Creme Facial Kiwi Antioxidante - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://acdn.mitiendanube.com/stores/001/149/040/products/c0af72c5-6372-4667-81fc-c0afbc6168de1-6f03ad09361c8648fa16670600847588-640-0.jpeg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$23,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sabonete Líquido Mãos e Corpo - Berry Pie - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://tfczxi.vtexassets.com/arquivos/ids/177238-800-auto?v=638106848421500000&width=800&height=auto&aspect=true"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$16,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Base Líquida - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/300x300/1794/1794814/produto/183614195d9f3a5818b.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$10,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tinted Balm Feels</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x450/1641/1641981/produto/202409279/blushcompactostayfixrubyrosehb571kit04unidvirtualmake500-7ece207696.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$11,75
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Blush Compacto - Stay Fix</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x450/2463/2463319/produto/166006149/41b48566fa.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$20,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Bruma Fixadora Perfect Glow</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/800x800/375/375178/produto/182123033/ee5d2d5ba4.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$15,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Iluminador Compacto - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhhIkrCZPn9P7rL7En8HAPrSkXSqu_PVy4A&usqp=CAU"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$15,50
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pó Banana Feels</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="data:image/jpeg;base64,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"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$29,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Esponja de Precisão - Ruby Rose</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGBxQUExYTFBQYGBYZGhkdGhoaGhogHBoaHRobHBsaGh0aHysiGhwoHyAaIzQoKCwuMTExGiE3PDcwOyswMS4BCwsLDw4PHRERHTAoIikzMDYxOTkwMDAyOTIzMDAwOTIwMDAwMDAwMDkwMDIzMjAwMDAwMDA5MjAwMDAwMDAwMP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAFBgMEAAECB//EAEgQAAECAwUFBwIDBgMGBQUAAAECEQADIQQFEjFBIlFhcYEGEzKRobHwQsEjUtEUM3KC4fFikrIHFTRDc9JTVJOz1HSDlKLT/8QAGgEAAwEBAQEAAAAAAAAAAAAAAgMEBQEABv/EADIRAAICAQMDAQUHBAMAAAAAAAECABEDEiExBEFRIhMUMmGBBSMzcZGx8EJSodFywfH/2gAMAwEAAhEDEQA/AHVWcai4ZMaMiOT0qjmY31iYyY5Mo7oEzonL8THJjVomoRVa0p5kD3iOTa5ayyJiFHcFB/KB1DiHp7zopjaUR00RzbUlFCa7vbk+VY8WrmeC2aEnRKicSoRr77TzgDhOAP8ATm3M/aKtj7R2tgrGab2IIHPOEe8r4MevTOy6o13vMUVtoPfN4itW0hKhqPIg1HnXrEF427vpUi0IoF7MwflWNPMEeUZZJ5YjcX6jPzHtE+Q+o/OV4x6R8pStiHAV0PMZHqKfyxdue14WUNKKHzziIipTor0OaT5t6xWsqilTGgPodP0hWLJob1bQ8i6kqMk+80JQVqLAe+QA4vC1OvBVpO0pSUKbClJNCk4nBHBgX3xUve14hhNAhaSoPoQz+vrE1iUDLQgHCFILkFlAnCHHmeTCH5sjE12icGIA6pPapYWnCAAtBQtJ1IBIWn/KT5wOnnAoKH5j5KSVH1ixMUUkTHdSSKAaMxTvJzPGkDr3tAKzoAoFIrtJUh68iS/TfCMTsx27Q+o0oCT3jncN+ftEpKlUmCiwdFD9c+sUe0soqHBqQt2C2dxNSvaCVkJWVBq/SptN3J4brRtoJ4Roo2td5ARoaxEqxWwiaoGjJCuJIoelPeLVttEsTQtdUhCVJo7ElxyMUb2k4J6Vt40lJ5jaHtECzjSxFU1beNfLPziHKhDVNvCwcKexh62WgKUm0gMVjDMDvtJyV1SQrziwJySMNS4G1TormDFe4pZUkync4UmrNQBinfUkdRBE2OTKQVTASkABgKCtGAy08hE6IzNqEXkdMdo0PXTN72UUKzYhXNq/rAdMpiUKZ8mOTh608usc3V2ksxm4UFiaEEjPQ0UW68II39I2hMGSs+Y/Uexi3IpK2ZHiYBio4MqWecxZqaijtSlM9TzBjjDhUYyYsUWDnQ/rz6b46Ncj6+nzdEZCoNpUJ1gHGMjuMiD3oxka1COSI2pUclUfVz54TSgBU0Aha7Q2+auUpUklMsUUR4zkaflBTibV06QZveUVyloBz9Q9RC1ZLaJSkS5nhmky1E5JV9JPJYSeRMJyMQQBGLo0sWi0i8O8LJzZRIU5Kmz1ZyGrvxRIhWCoNUlxvz9/1gdbpBs9oKSPCohjurQ+3SNXfPxpAUXUH50Az+b4S+LQdQ4hdJ1Yyn2eX4hY+U9Ms1tCrP3wqQkk8wH9fvCtYLUFTUiaS00lBO5Z8BHJWHoeEV+zV/KlK7qYHQsHooaHeCPtFO3TMOKUC4C3SehKCeLbPOOZDqphLsOAe0KmE+0Nj2gptl2U3Rww4tAefJKUhwabIVrVqF9HduLQfvG0FSCaOoggn8zEmvEe8UJkxitL1CSa8PnoYncVvKUUgaZu7ry7uWuSvwrAIOiZgbjrQ9IIWKe4Cgc/n9OhhWmy3TiUoHFVgA+TZ6kRc7K20nHIUdpJpy5/MoEtqWu4nWTSb8xonIGn9SPjRUtpfa1LvzDP9j1ixiJTxGfz5nFds078uY/UOOsQvhs62M8JQvmXjl4hq4PNteD+8DbmtIXLSKJWlSkuUuxcHDwJVhV/LB8AEmWclD1/tClbpBkTxjcImBQdOiwGccSK83i7E/tcYIi1GlqjYoEjFhyI6hgX5/8AaYrWy6Jsw4wsIABYkbTPUDWtD5xfsK0yJfeTTtKYNx0Yan0HCKdhv9SlYyB3WIpcuAkApdWMhlGuQoWUMwxLBiK+oxPU5FcaIJtNidBBUtVDtENnUVJ0NesHuxt4GbKwKO2g4Vcdx6iOb3lAKKgHGYO46s/ysC7vmdzPTMqygyuIJzPLPkOMFhysrU0Fun1Lawn2msDgsOI5iFNE5QnpYVOGmTlyC/MR6RaZImIhCvyxFM+WoUBJAO5WnrFGcbao/wCzm9RQ/OEpOKUtLPQli/0keF/MeUXbtlpBmWcjEhQCq4lOFOHWVODiSAeeLg9ax2hK2zJbXPiODHdSkSy7csS1BIBVLLpKsTYDiDlKKqbc2vCI8LaXI7H953qQGFnkTDLlyiZaqAZEzEgNvCAEt0Byhlu2eLRZykEFQFGNMQybn94V+0eFclNoQAFAeIh2SdXQy6aYTrkY32Kvo94Ao50NJor/APdD8PKLtO28z9dHbtClnXUp0Iccjn6+8dyEFKgDoa+4PCOu0Mju5mMCj4xyPiHQ+8cylYg7udeW/mIzcyWCveaaNYsd5YwxkVO6V8P9YyM33V/MbXzjaqZGjMiIB1YRmXYb2ctAG8LxmGgOEcM/OPpcmcJzMbF05fiMQrCp2mu7EFyxmdtHMfGgTbLRMz7xY44lU45xxdlumzp0tExZK5SnBOapaqKD6kFvOFDPr2A37RmXpQqmzYOx+s7t93rtaJE0UUpJTMUcgpIFTxNDzK90A7ddi7NNRTGFAtoCWqM+PrDdbL0R337LK2UqzWlmQp6Z0G1sk/4i1RFW12M2mUqWtxMlrdwDRqKS+SjRQLagRQx9MzUw/eAjkVvFa1TMaCUgpVQjVlCqW5tEMm9gooWaBQKFcCSGPQ+8FrTYgkEaUFBuyc8/tCtOkFOItsk14F29/cROjK1jsZuMrhA5+IT0Y3eqbJKxzQN5APpugVfyNrG1Fb/mQPzJ5LBfcyfNBQ+CWnZapcAFVHA8Lpc5Y0tUki/2nsp7skBkqZQG4uMSX0PKPPj9M9gz63oxTs6XUfjbvVxEc+YZE2XO0Bwr5ceR+0SySQoHMHZI3j5XpHV4SQsFJdiCH36A8/0ERE6Ml9poZk7Rwsk0Eg6K+HKJJ0llcoW+x94YpJlLO3LOHmND1H3hws8rvEcQPTP29jA50OkqJJqoBoHtHiccG+c4HdqLGJkrEKK2cJ0SsF0vursvuVBKYmI8AUkoVUH3+e0d6X7sBZzKtrYi7KnqtakldEYQ6S7blhTVCQqhGaiQnIEE4MOykYcRIwlYclQBAUwcBITibRIc7WE4V0zTImrTRlupiQwmJG2FHQEEL5YuYkTbWUVEvotShQk0CSliVGjCWARRiFKB7vTq5nNsY2KV3spSUhVGwlQSCsMCFYQ2FJqliBkaQFIcEvlWvqOcELJOSJyFpZKVoK1uCVsQ/wCItyEgEEZmoIdmitflnwrBTko4uFDtAcTn1iXNj3BlOHNQr9Ib7J2/vJQSS5TTpp+nSKnaewAmuThQ/iSX9YDWW2fs84TQXQ7LbLC7E9KeQhvvaV3kpxmA4MOxsHTSYLPofWsSLrnbW5y8HrQAmULQzYTt0opJ59RzeFq0y8EzFv8ARsx5ww2SelWBBOxN2FvXClhhbkfYxKFAbSZ5nLEtCK1pmJSoHElYd94MKybOtFoMqWlSiGI2qYTkWASUE8SqozMMlz3YqUgy1H8NClBBJPhJJDvUU0z5RdlAscAqc1EFNHyAqUjzfg8OfqVApRcHH0rE22wli1zgpMtE1IJT+VVa+JwWZIpvPCKwkobu0nCakFOHEA/JgBlUetYrIWlRHeLCFF2QFAzlJc+LCSUBnLCo3jIdWtGNOHEpCBmEFQfmUbR6q5iJHy03q2lqBSvo3qT/ALGf/Fmeaf8AsjIC/wC57J/4Kv8A1F//ANIyPe0x+Yf339o/n0jnalFE3FuPsYodobMArGPCsYh1zHm/pBC8rVLmSkzkHElRZxpnnu/tGBHeSVJNVS3PTVujHpFWddyBv3keJqAb6GLAu8LS5JzyECrdZMBTMQTjRUcRkUngRB2zHCspOSvfSKt5y2cnLWOYdNX3hZi112lW6RKEvvQRXEtz9AJYvvUC6RuZ81VNLtqQkWiqUqJEzGonCUpBICEuy1J265MpzCjZ5hlrVKqQT3ssb1eFScnBqCNQ6ixZiV7N2x1qkKU0uaAkTAWZf/LVKzwpCiRiq+MkfmXXdyIjQbmr+QUTMCAwbESz0KgMI4kvyAhYvayKKinQg146eY9oeV2d5WEg45TJLuXwjCoBRG2xBc7wYVbyUAZoGmEFqVIJFf8AKIkYFXoTSxZQcdmD+yd44BMlkbVFAO2Ig0DvQA7R4VcMDD7czT5RksKgYNlkpWPpzcKVUsQCMQBAIIHlFrtK5cxM7JQzDb3BDtVqiHXspbWWlQqkHEhg5DpIBckfiLJAq7OAKJeKh6hIWYK9rMt1jwFmzSPPX1iopYKAPqBI86v5tDb21seIJtCWCVCuVFDxD7wnzEE8zWMzJj0uQZeOrDgUIPlzDJny5n0LZC9zvQv6dY9DuS0EVBqGPR6Hk7f5o88vlGKXMTXIK9Q/UGsGuxF8FaE4jtJ2F7zoT1FeYEMo6Q3jacLhiV8xqvuyBKwpI2FjEOD5joXECjTI1HwQz933slcvNaHUni2bcxXzhcnBvWntXSrwjPaMGFwsTWNJ7QT2msRXLxo8aSFo/iTkORqk84XbvmJLK+nDsu7ISWBJ3rJDHXZaiU0dQHBT1H3+cISrwsCkzzKBYLUVpqwD/vAHpQsp9ApR0jSwPqEi6hNJjF2ctffCZZsLrAMyWFOQVAOqWsJLF0uQnQp+pwolJTTpSgh9kkJJSAFFOqQ52TUQsWG9O7KP2ZWEpIZbAqWobTSwrwoIriLqVUnCDihkE5ImJtAwoTNBTNSpyqXNISVSk4VHCkPiGIGigx0hrqCCJIpowPKlDuwiuQoc869fu0H+x1uKpZkL8Uug4o+nyy6CKN62fBNxOEpUXckAAkhw+lQ/XhE1jssuUvvFK2iCBhVTCau4zEQjJ7JiTLVQOAJFfN04lqSkhnBDVY68usWrDZQhIQGUsEsCaZV1HlQHzi7ZpK1KIUE91vOTbw+Z4ZcomKES/wB1UbydrkPygRJkyPlYmqEsx41TYbmVjZloHeTCSBmimwHqoDIMHcc8zAy+beuVOSMTomOErSAEpGTpScyHBJLuD5FZ9vWpJLOQ+yn6gNz5nKnSAtvSkyylQEwAqXKSdklLVluKkJfIMWADvlzps1NRG3En61MjrWqq324kVkTNSqZKoFgYnlpQFzUUqnFRSWfZDVHnOietSFK/aF4UgurAlZB0xpwFSeQZgDlFU3oAEqWEKnIfCSSlCcsTqBoQNrOoByJBPFpt8uatJTNImpOFapasCFOHUUqUrZDgAkgksGSrKKgrO1kfWrkVjEtauNgLI/WpB/vUf+Znf+n/AFjI3+xSPyWf/wDJtP8A8eMin2Xy/aJ9pl/uX9W/3D3Zi/EIRNs8w0YKSdx+MYZLltbKQvTwnju9KdI8ulzcctK8ijZOeWHJ/mUN/Ye8u8lmWTtJ2fug/bpCshYLtyJqelhqXgw1f9h7tdMsxyNR94o2sBaQoaj11hgtkvvrMFfUjPl/SAEhLOg8xz19PaJUAw5tz8XE58ab8iKt4y1F2G3LONGe0B4kvxBKesRC0OEiUXJAKSKHAoBmP0gAhyz7WGoosre1mIWlacwa5VDVFYGWe1CzLmBIZVFS1n6JaiTMIBzUlRLUYd4DVo01k7ixHK8LSpMuVaFlIKtie5VszMICQlAJwYqKIPF84VL5sxQqeSQlJmyiCcsOFFfMEQR7JLSlS7NOWpKbQGoTjSs1ROUsnZWo0DnEX1A2d31ZFGT+InD3U5lhRd0ILOSc8kqr946y2Lg4HKtpPeI95WUTCpZFFEsNxAr1Lg+0S9lFTJihIBqguS9MOeNzQFqbgEvmaySfxaMXqvN2WS6fQtzVA22K7uYFoBwLAQsfmSVAsaM2IAVzBY0McQ02kz2VdrnrnZyam0SZlnfGhQCpSgghAKaJCSal2JfUKBGcKtrklEwpUSKsd7a+3vHXZm3d2pBTtrQr94XYElOPAkGicIIcu/dvVwpTF23sQVgtMvwzA7g0dq84X1KWNXiLwvpaedAklajkQpgTShA5at1iK555kWoA0TMAD6b0HqKRelWbYU7YjiG4Eg1feXZzy3PFS32NUyXsgumoIBNXfNqsajgeEcDqQRLVVgeN56dcdrICZgzQQDy09A3TjHXaGwhCytNEL2kmuWop8pADsXemOWhaqOMCwXooFi/IgHzhyErvZKpf1I2kcfzJiZk1KUMYx0MHHBimTXl7wsdrJa1iiQSguA2dC4O8KGJPUQ12hJyHDk2YPA/1ihel3KUHKWFXJoAN5fKtawnpsjLtwRG5UVlNxQu2ax2FNiYmYfEQqqUo/LmHI2iokBi6ydu6YsyyiWhSE4gUqUGZQLhWpG7IkuKgkxWuYSANgqdyXCVd2+ZDlIGFy+oqNC0GLNJQpeNddHaoFNkPQDVqe0aGbqCp01vMwYhzK9msypynStShkpSSxLUP4iirCHzbk4ahi6rLIk+JONVA9ACRRyVVXzOrxRtN6oSlMqXLUkNRKUn6Q7EpJSnqawMN4icQkhUp0/UC4ajgIJALkBi3KEOSw33/AJ47xqWDsQIevG+1THCaAenzfAzvBqMQJc73Znf4MoHyMSP+YtTEFlsXb6fCNnTrpBGwBU9KZqwQFsWDZNVmckeROYfWZ8bE3e00+nyIwoDecKmfShanfEMPiBFAQKh2ocwXYuKRRvEKxqmOlAHdrW9RiUSUlCQ5BIrh4neGaLLISBsAJG9s+L1KnG+AVq/BnTZqpIxFREuYtWIJGigGOJRzqaMwAZod0wCkn/Um+0cWtAK5PO//AFB9iu+axSAEhSQ4VhBCXotQU4lDMAkuXLE1gvZLqOeNNGdWFwkDMIQRtH+JKWY0BYxVsk9S9SA7khxiVkVqckqURqSWFAwpBe704S2hpDMvVG6WS9P9lIPU9/lOe7mf+Ymf5pkagv8AsSY3E/vDy/3PB4MQQky5hSkq22I3Za9W84luC39xagDspm7JfQkul6UZTDrBdV34QcRxKNSpm0Zg2QaAPamylkzBTVxm+vqxiouGaJ6fAQlfoPE9eum0gLr4JgqOJooefo0CO0NlMqdTSoit2SvPv7Ohf1Cp/iTSYPZUMV9yBOkJmjxJorl8+8IyIHajyu4gD0OD2O0WLwlBSXGREKltS20ASqSXKWd0HMMM6VHECG6zlwUHTL7/ADjAi8ZQQrGQG8KjwJAivG+oAwHTSSIQ7LXAlSBOmnETUV8WuNR1enNk6AAMV8WeSQgLKMc1JSUkjFMSmlBmQHY7sQhX7JXl3SF2YmspSSjjJUX/AP1ZSeiN8EpdkmKmzZc6SViZNPdz3lnuklKzLWhJqkyzhBOZJfIAQ65MRUBWi6RIeWhICQdVGu40c7s2gFe10YwpL5h6Bs6EZnWsPd/WdmBIxih/VufvC/OS1d3trELMUfmaSgOgNSx/s2lp7hSFAGYkmXM5DIDckpYwzWK2y7VJnWeWaoWBtoWGLkEpdsQLFiCxrCJd9oEm1Jd+7nMhTaljgI3OlShzw7ocbmuudLmS1rmIVLlyTLThxAq2wQVuWOylNd6laRXrDrcz3xaGgSfdKZRKSHUC7qqQd40T0AiGcKg6ajT41Iae0djdpoyUK/PmsLi5egz3fOYjNyMFejNXEdSAiBbsmdza1Sz4J2X8Y3fxD7x6Bd95BISonaToMy32I+8LY7PpmYFTR4C6akVGVRU60gukhIZNOOpgvaVRnmQNtJbRhUsrws5JCX8Ll+mcRTVggg1B00/rEal/PmfrHGKJ1ylr8wggAgSfc6JQUtIcuajEFJxqJJBSaAbIAADYXLvSpOBVlmSAHD1dgQFOMTksc3bdBy8EY0KSFFJIIdOdcwOcL1nKioiqxLUAVJYYymowuQAaB6ht5LPSCz+oneS5VpgoGxmish1FynIUS1A5AZiSxfa4VziNc6rFKgWNGdjTxFJIGebnRnji2qCSp3SCdgkkPWjJfbo4yJ6vFaYFMFJXhlqHiAUZhSzEJMwJly0t9Slbil2AhqYtUSwHEkwBLd4FqSaAKxqQlRNFEBwKkZ7huo1SZo8NHADgabqboXLMhwEYVywkpIBW61HepYqa6uE7kgUgtYWkLTh/dqqr/EVZqUc1KernSggMhT4dW8swK6C6mXpfXdkoQl1gO6hRsi28/rC9iUtZUolajqflA2g3Qe7SWTJYFU15jURQu+SAX0PsY46hOI7Hl1jfmHLvulKZKJgfE5x9apI3BqRdRZ4vXbL/AAwNCMJHI7J+b4zu/SAyIK2gI5s3IcB4xkWm4RkT6Y7XFe87UEqWwOFIGGniJLDzVs9FHdAufZfw5qDmAFPvUxKvSg5CD953Vgm90pvwiVn+ElSZPoCecA7wW0tah4sfpiCAeVI0StGpJjyHZhNdhbYZFoMk+FW0kaYhRQ6p9o9TuWYAtUo1QsU4ginpHit/hcqaJ6MkKSpPFy5B6Fo9QuS3ibJlzUHJiP4TUeRcRw7U8Xlp7Er3rZTInHcCeo/tFa2y9R0hl7SWcTpaZqcwGV9n9fOF6znEkp1HtAodLlfqIN60B7jmLwR3Nok2hVUpUyzuQuj8Ak4VfymHhFooEoyFH5ZDk1OkK1us4UlSSKEMeR+esT9krWSjulHblnASdQP3auoau94PJkYChCTGp3MYu0NlCkInCpLBXlsn0KeghWtEtjDrYGWhcpWSgSOGWLqCAroYVrysxBIIqD6/PeJ8iCw/mHhPKHt+0A22yYkEAsRVJ/KxdChyLekMvZ2/DPloLNTCUjSYmhHIlwOBECpNmUtQYUqFPQMfvrF267lRJxEEkrOJVaOwFBplHi3poRxRTueYfn2xKpZlsVHQjJIIq5+ZwOQhKchXfp/X2jaiwbTcMuu+I1ks7FvSFPkG1ziYws2uZ/eIiqNk5AjPm+enKIFzWhSvqMbJCtvnvFedPA1+fOUVp9risZpVQOTz9a5PWrxwrTah9Z6TTrVFRdqY5UIJK1FIQgAh3KiAS5oKvkA8RrngaYz1w/16+UV5ylTak5M1KBnZh/ZoqxLvvFuxrbabvC1S0AqM0qUfqJXUsKYUlJVSlcLMzQNTblLUe7SEv9QSMTZuSHI8zvgba5akzSlaip6pKt2o4MfQiGfsVZGmYyHIFBoQaLSeaSR1il9tjOAqF1CS2SykAN5wSlyHTgI5fcV5xcFiCSU6DLlp6R33LZByMohyLpNxivYlaSnHLwnxJpzGh8vaB6LNgVhagy/hP6fpBVOysK0ND/XkY7veyM0waVPI+IffpFeM+0x13k7HQ99jLV0TdnCfnwe0W53ifQ+8CbGrCfTpoYJZj5nC7sUYwimuS4TGRX/aFxuF1DoybtZM2JdqQEmWoYZxFThrhKSKUUTnm8ec20FM9UtQqRKSeYwFXuY9JuBaJ0mbZ1OZak0OAJASt2SkMDQEZh3zfOPN74s8wWoJVSYlYlrJ/OgBOPkpIChGwcYJLfKZGHLtpM5tie8xoIolZr+YYQ/RJbz4QU/2YXlhx2dRomqeKF7uSq9RAS1Tz3wSgEspaW0JUWL/AMuIPGLJstolzfpSQlbChSoMT5MroIlZaGnzLAdW89kuxb4pa8i4PtC3bZJkzik6GvL4xgtYZ74Vg8DzH6hvWO+1NlCkJmjOgPHcfJ/KJXsqGHInF9OSjwYsXhaEA0rygOLWZVqQohkrZCzzqhXmW/mghakRo3CZ6AmY6BUPTEU/S35SOO4QPtSx3laoqiNVltOHCvUF/wCYZjqPeI7zKJiypIOFtae3SK0qUAAM21MdKXAl/TpPEDQNWqaYDgI5Uo6fOsaK6E8vXjoKREuYBnVJFX5/YxM2Q7hRDm1ZHQjPlr5RHMmpd+VGOgyGjRXmWgvxP6fpFC0WsDXTy4QOknk7wpbmWlhmeNc6bnav6RQtNr4/34b4qTrSpQKgDhGamoCdH4wPn2tuvn0hyobueAhIz0AvMJ/hSxJ4E5J9TnkYH2+/B4UbI0QkueaideLPwgHetpmB6kAGo3jWsdXXZCs0yixcQC2ZwVe8JWCYuYpydnJhkD+vOJL3solzZa50xSJRQtIKSQULYkl8qpyzLgMIcJ9qs/7GhIQtU1CMIwJphCnSVE0cEs2dTveMsszHLyYiigznIH2Iyh+JabaQ5soYeIjW27lzJMudmoOQXqpAcpUaeJSGfKqRk7Qy9nJgDKTUEBuRie02yWE7TpqRhIOLhQhwDQ1aA3Zy3JExcpPhBxIy8JNU0pslxyaOZ1ar8QunyKfTHqYygCM45WjWI7GqkWsOnWJCdW8qAraUJskMU76jjvfdF2xnvJTHMUPzlEcyXSmYy++casczBNB+lVD85vAdO+h6uDkXUsHpRgJT+X/ScvLLpBGzqehzy8vs3tGr6s+EiZoKK/hP6Fj0iGQpulP+0xRlXS19jOY21LXcS33BjImwncfMRkKoQ7Mlu+7EyS6CWw1AArm5pkGLAZBhxgJ25uc99LtSEuFYRMAz7xBdCgNcSXHAAQMlXpLtVllCauYlEszEqWjFiEwSyJajhB2SkqU5piSnexaLrBtFhlzVPjwBQqSCnIKD12gxrWojVLkKamMigODPPrFZJiCvFhGNT1qQTU1iW22QTZZC6lNOlWy3H7QYvWRqPnw+8UrMklYYE4qED39jGW2RibM2caAChCvYK3Y5PdKO3L2C+9PgPVLB97w2KtsvulIWcxQM53inAtnCjctxGTMVNKyFLABSlmoXBfN86hszBcACPe0q/nAfEGMjk2dILs53n7bokJjTklhU7hHC1NqOkKjJ2KlnaIxNzDs+uoY5P6RDNnRTn2nUnP8ARnhGRbuzsf3npYnWqpI10prpxijabVqTp7FmbTWKVqvBsvvnw/rxiiudiBJW25NSpX2A4k8n06mPxt+8KWLTeD0HCgijaZhAxKIA3k0/rFC2W1gcIfkcuusCBMmTZjTFEkVD7uAEWYunBF8ThbTULTr2VMISkkgZE5DfgTkmJZdjJD1O9R1i/cd2BIKVDNiDyy+/nBw2ABmNNzc+lRHsvpHpg67O0VbbYXS5FcvnSBd3he1KBKVJZiCxKSoPUV3j+0OtpsjaUIr+sLF8WfuZqZoyBZfFJLHyNfOCwZP6f5cDLemx/BHHsnLQJUvvEkgjCsEuEgljTINskcollSRItK5RXRZw1NMbkjCeNepihdlqUhgkgggkjeMLhuLluukbv1Amy1TUqONCizmoYhi2aa0izpn1jfYzKyekkVsZrtFdb4we8UVAr2ZaWYEnAVEFJJqA4d2NSxhU78S1y5iU4MJBcqxLmINFVJOJhXZKg4yEegqT+1WaVPSkKmAUS7ALdlPUUo+YcUdlF1u9p6ZExSJEpAUpypaHdRriBWp1kCpAQCySnQgw9gDtBxsVM9BuezywhKk7TgEKNXB1GgixecmgWNKH7fp1hS/2aXmTLVZ1Gsuss6KlKJw4TkQC6aboegkKBB1iZsY06RKkyENqMCLGsVbRKFRzI1/tyi6pGElJ0iCcmnEVEZmRTY52miD3EsSyJsmueSvnKsB5Qw7JzScJfd9Kvm4xfu+bhW30rp10/TrEN6y8KwvQ7Kvseh9zFq/eY6PIk/4eT5GY6+PnGRru1xkSaD4Mr1DyIC7JNZ7R4vw5owl8nzSetR1EPVnvABaS2wc31B+ekIaLrmT0gB0t9WlKgjeR9oZEIIAClO26g6w4Z2oVJcmBDv3mXnYpZWoJUFIemH9TT3yjmz2dKAyQAN/6nMxKkE0AJOgA9gIJS7AEDFMITlSjv7e+US5i/Kj6+IRYIACYOkpxKCauXoASfSsXZlnlS/3hD/lBr13RDa72wgpljADQqbaLcfh5QGnWnP4/MwJRWAYNZ/x+k8AzfIQlaLSlsKWSnUA5/wAR+rrA20TE/m9RA6020CBNqvDdChge7LGMC1xCVrtwD1fjAq0W4qoNcopLtrFyArdidn3sPE27Le4oRdvtc0upLg6qOZ4DdF2PAWqzOlqFwrbJ6UByoqVmwzZvSKKFrmGtEnJI15743dNlMximoNX5wyyLobSufnDigUbQBlvaAzYvI+8VZ9k7tSZreEgq/hOfkK9IbF2ACm+KyrIC4I4HlCsWQ3YhEWtRhslhCpYUNA44jWLSJFOmfsYq9gJ34arOrxSiw4yz+7V5On+Uwan2bCSny5afOEOzpYuT42olTAtokA6ef6Qv3xYQpJBFC4PziPaG+el30fPnrAu32YF+NOR0iNAQBW0oEUbhnnZlTPFLUUpUfECzpJ4FJI3UaDSASqbLUwZbljUg0GRIIFDSue8QFvKzmVMRMqEr2V8C+yrmlbecNN1ygJmMJByPhybFtE65+nGK0zjG2rz+8iydMSCR2hHs5KMv8EpoRRWmIeKpFX+3lQ7WXecNdpsS3wywhEtJJolQIKmwOS/hcNWClsnEHE7kBw+m0nTqPKJ72kpmJlWhpYKHOKa7ISpNSH2UkLCNpSSwffDsGYsSG5i8uEKoYTzux3l3U6XaU4ilJZa1E/iSywVhxbUwJLHEHACc49XsdtSohINSnEKHwuzvl6x5pb7twzlJSlaytinEFlSkl2crSwAZsR71QzAQC8MPYu1nuzJWo47OXGE0VJUyksa4ssGtUqD6xQwixxGi9pOSxyP2MUV74MjDMRm4Iz4GApQQSk5iIM601+Zd072teJUmorh6j5zixa2myn3gg8FDl59Yjnoy3g+kc2RbFQ0U3+YZeeXUQjDl05tHkRmZNS34gbvZ/wCaMg5+zcIyNLSJHrMmwkkJSOQA9gIvSLmLYpighO6j/oPXlF6022VIBSgDF6nn8ELl53qqYdo00ERsqJzuY1WyZPh2EKWm85coYZKQ+qjzI1qavwgLPt6lElSiSdSfgAP6QPtNsG/5z+ZwKtl5AaxK7NlUqY9MQX84YtVrH2PDi3zSAdtvBi2Z0bXdFG03oojNvcwJtN5lFUk4uBr56Rzp+nK7RgBhO3TyCQo7QzT+X+I6HhmNWygem24nCKnJ9ByH1H0gRKnqWrCrJ8hkx15w6djuzwmIUgoBmEgpOrod0g7ikktqQndGiMQU1AdwEuLi5qEKAU5UQ7s7CtTuFD5GJlELSmZL2kKdJd6KB3HIkOOZTB++LinSZ3e2eUlasCkzAVZEDYauHNnzNGpGrLcZRIUhfiWcayC7LIFUvVgQG5RRoFXIGzEmjKHYJJSpctaTT8RLB8SFflap/qI9D/YwUJWNw8jCUtXczZdooMCmV/iQaLHFhtN/hEei3UEMZYyAcbilW6OOuoQVfSQYDn2WB06Qygd9DDHa7OxI+cIGz5GcZOd/ZgmaamxcDyrV+zT5Vo+gtKmnTAohlc0ljyKo9Btcp0hW72+VhGVIEyWqWsOCCCD8+PDJ2DvMzrN3cwvNlHupj/UwGFf8ySDzeL8XrSjJcwKsGmrRLrFOdKdx8eC9sks43e2kUlIcGM7qmKYzKVNi4qXtYRMQtKh4nHV+XijfZCdMmIMsqZSDhXxI14uK8jBaejMb3PIj9QPSAKkd1aEqFETmSrcJiXwnl4k9BHSLxV3q/rGgxmUBhwg4lJoTp/XT1i5c0wOZKmIIBGocjaFc9/GsUQMBAKhuIGTEUyAq4PnEgmCVMxKOawkULZADlUMf4hwjuHJVMN4rImpSsgvmRtTArvVNVZKUsrIBKQwSsNtFwpgFFsVQryb8TLny5yGKEHu5uE4k92sgbUw/vVhTZOADo7Q833dibQjGkh1JA2gCkpL5pIzAUqmRdjoUhf8Adtms6ShbKKklJBH0kEEJSPClnG9qOY19Q03M5FYmo13WUoHdgksHD/lLZFgCATxiO9pLELGtDz09PaAXZO+VCQuWsYplnOBWqlIFUKpm4Z240LMWqYkTEM9FCh9QYVkTWtQ0Oh94GWmoihPDKPp5RfTTPMUMVbQl68fTSMXSwz6jwBNETj/eB/w/OsZFbCfyDz/rGRV72PM57FfE6tloIFeR5/1gLbbxA1g9ekgORmC45/KeUKF7XTNBOHbGlQGHHf0j3JqeXcStaryJyitPmYRiU43b+g0i3ZrCJZTMmMrCQSnTDr5Z9IYr97PomtNQA5AyLDnx/rBWii50gjmIilKVmMI3anmdIyfZKUFIZBcrBmJMRqsVCDDQ/iCGNxTVLEqYFGoGbVofvlDoZU9aUd2QEzKYUkj6XxFVMVHLcci0L94WFwQ3ODvYe1lSUIUQShRSXzcS1YSHyBSCOvOHq+oX3EVmSwV8+I6WdDScKWUpKAKnCFKZqlIOF20BZ+EKd8XwqUhQIqlSgpZZgcRwirAUoFKYEpZnMHrotWHukrFZkuUKFwFd3OW3kCHbQQN7QWIJWpCRLT3hBlkhS1GbUJNQyPqAZQpiYZlNSCxvMvL6WqJU+dMWe8WrAn86nc1cYEllKB0fCMxtR6T/ALPrzTMs6Xcqk7HHuz4HBL08O8lBo8ecyrtmzD3qiUpL/izHD6nu0MFK6BAzfFnB7sZesuzWqWhJUUq/DmFR1URgLAYUMoABIySpRgmE4pnp16yHAV0P2gPPl7JPWD1mUVpUlQYglPPUEPwI9YE2pDOnXWMT7TxMdOkckXNHp3tdPiAFpwqB0NDziW67SbPbJa/+VPaUvcFjEZSupdH843RJbZLgjyipbbN30hUt2JyILYVDIgncWIhuLKqsBcdkXUtR4vGU4xdDy+e8CVJaLPZK9P2myoWv94AUTRk0xOysMcgTUcCIjtssglPT9PSF/aOAuAV87xOB/wCkwPapVG8ucCb6sveSynIqqk0dKhV+LHCftDBOluN0D58p9ls+DkndwGZpCfboCFBlUo3JeZnoS6kCYlKgpIfEMJCVAuaB9dXEHZ8nYyxYqKJbdQn5rCLZ0izWxKyGQtySCfEBVhqCn/QYeMT0SqhVmXNXBavEgcK7oc2NUHp4MDG7Gw3IP+JTk22YXs4mYCjaLJDqQrEwxGiXLVD1ffAy12NBmqKKnDm77QI1L8upgnPCFzES1Ykl1BND+IlICjtJ8KWUGdqvR2Ir4EyJaUiWhK1HaQmY5CcbFSMVVNiSWGqm5s0tQ3jFKqSag6z2z9ntKJz7Bwy5uY2VP3a83otw/wDih7u6ZhJlEvhAKSVKJKSTmVEk6anPSkIc9SJgWgpZCgpB3uS7toymL5+UMPY29lzLPgNZ8o92oEsCRQE8CKvuNIrxvqEl6hP6hCt6SsKwvRVDz/t7GKc1LD5WDVrk40FOunPSAgVTcdd8ZnX9MzMCph4H1LXiRdwPhP6RkawCNRF7m3mUyzbkYg7NAO1S6/3HTqPeGAVBFAD7wIt8tj/X0i/VYDHYjmJTbaBkyASQTTLLMdeEMvZQiZZ1SGGOUpuJTmg9UunoYATksoHp+h4Rbui2dxaJcwlkLaXM/mOwrophyUYoQDceZzLqZdu0LTrMCAWDwEttkYw1W6QErOQCnI4HlrAq3yX+faJVJRip7Gp5GDCxFG8bNrA6wK7qek4sKZjIJ3Fwx8sSeohltchwRAC8LDjSRkdOb08jFaNpa4ytS1DVunHGEhakvhCSkguhMk41gUfCXDa84YJiDaLPLmOZah4igHG31oSUkKAJAIIzAGYMLdnmCZZ02gBPeykrQ6nwgKExBxNVgcJ12Qd8MvYxKygBU1MxGBBRQuHxYgScw4YcAN8aCONI/m8zOoxEnaInamzzjMJViCSHqQ4wk/vF4hhDYVsTLpMAd6QMs1nSAzUYjUAA5hIYE61ISMjhUWXDn2ku0JWZEvaVLlpmpGF1qOFSQuZOVRJZChiUa0G509aCVHEymYkZS0VYYypitwzFWFJYFKZkMO4kyAjmerdkL17+TKmuFKI7uaQ1VJBIVTRQIVyVBO9bPUK3584Rf9n15d1aO5Wonvc8ThpgdSXBGw6XDFleDZSClMejrlFctlAYm0NH4FhEfV42yYmVee0pxtoe4t2mVTiH0pAzFhW2h8ngzOTAq3SvTKMPp+nOPdzNOddmrR3FtUj/AJVpDjhOQPdaAf8AIIar0k0Cuh+3zjCVeEkzZJwHDMQQuWd0xBdPrTkYdLlvBFps6JwymJqNUnJSTxSoEcxGwyDPiKHuP/JHkGh9QgmZTh8/vA+1irj1gpaZTEg5iKM9DiMnH0q4vjNmVg3vF2/7v7xBwNjDKQT+YHVt+u8EwRum2CbLQsIxYsKmJAKVBSQrOjpO1vcGNrl0UNQX9NTubjmeMDLmnd1aFSskTDjTuCgQVDgNf54trUBX5wqENTgF4SiYtKlKQCqXUfh4iUqegSajLUaRzewWZiGUK5Jw1Sr82LNnYt/g4RNabR3anBTh2sQHix7J0oKEkvvEDReC8ZUoVFBRxVtoAV1I6wbGhQincA13gm+lGWqWopKCQHSCFMUFvEPzIfyi7c6zKtaZwOxNARMD/UPCryp0jVou3vFYlGpYnJzkz7vgaNWu7FDCtI8BcD388obiDcgVBy5EZQJ6KDAi85WFeLRXvr9j1ixd1sSZSSVDIHpENvtstaCkFyGIYfr5dYPNpKbxGHUryo0ZEOM74yINpfCFolYFqQdDT7HyileMrXI58vn2g7fsmomDkft9/OBUxLhm0+Vg8+P2eQr2PzkmJ9aBouz5bunLT7jlWIAgLQUnUMeH9Yv2iWx+ZfGiksYVPv4a6j2PWPYyao9pRGu5rV+0WYFVZkt0r3405n+YMrrEc9LhxAm4LUZVoA+mbRnLd4kFvNJUOeGD1rk4VlOhqmG5UDU/0iE9LlfqIu2uTAi1yK8/eGe3SKPxgJa5WYidMi5AdPY1KVNGQdmD3U9cpbFE9JNcisDLql/8sN912VElKUSxhSkUD9dYTZwJQ6TtoIUnmK+T06w3XbbBNlpmJpiAPI6jmC4ihG2qcyp3k3aGx4wiYBMUxbAghiSpBC1hVGSU5iqQpREItvugpWdpKEJKlDAoEgucYlhkCUArEkzDhUaEzK4YfrJeklZXJxhSgDiSHcDJVeBpTJ4V70nmVj2UBUvaAloxYSEjGvaYd4olJDksjMpKo0kJK3MbIyaqBuDFSBLQw/DNFSx9ZUnaTMU4DJBdTqAFFMn6j6X2fvNNos8ucltpNQKsoUUl9WUCOkeQ2exz7QpWJOGW+1iLg5P3i/8AmGngTSiSX8UNnZy2mzzf2dMwlExONDs4WlgscHGEt/hVC3YLzHY0OQbRovSQyidFVH3+cYE2uXSL/eE1JJ5xBOTGXkCu11NHGCFAMDyzhURvr8+aRb7HWzubTNsxoiY82VuCqCYgdWV1VFe2oau72gTeqS8tY/eIUFI+78CHHWH4nKnYT2RAy7mo+3vLDhQIfIj2P28oFTkxuzzsaQreAY3MEKyNqa6nsa6Vq4LtcuvvFQLKFIUhO2gkjdkQQrgQSIKT0OIoWiVhofFTZbyKvdvtBYwSw0zrMoX1SObePercy0oJUlRb8yXAc/MoKSLvccOGXzLygZZbNWsMN3qYNGgmIcmZz5DObPdY3ReF2hmaLUpIi0hocEAk7ZCYtyrMUOnQGnI5+vvFOYnCojT7GGa22Z6iBdqspO7yH3iXPgLG1leDqABTQVhO8RkT/savzD/Kn9I3Enuryr3lIz3v+6X0/wBQgAvwjnGRkB9p/ip+cn6P8P6wPeHi+b4pTs0fxxkZHRzLTxIJ3ikf/USf/dTDtbPDJ/h/SMjIa34USfxRKN4+DqIAWzPyjIyMvofhb/lHiDpOvz6hBfsT+76zP/dMZGRfi7ws3wyl2L/4mVznf6REvbL95P8A+pJ/0LjIyNocT5LF8R/OXUf8NZ/+mn2hes//ABEj/rTP9KoyMiHqOP1/abvQfEY9y8o0uMjIzhL5StuvWBVq/eq/l/0iMjIr6fmI6j4RC12eH+U/6jFtEZGQjJ8Rhp8Ik1k8Y6+xgHK+rmfeMjIq6XiS9RyJbs2QgnZP1jIyLxxIX5l2y5iCMvOMjIOKM3NihPjIyOHiEkqRkZGQqOn/2Q=="
+                    alt="">
+                <div class="card-header text-center ">
+                    R$11,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Máscara de Cílios - Ruby Rose </h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="data:image/jpeg;base64,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"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$23,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Fixador de Maquiagem - Ruby Rose</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://static.cdnlive.com.br/uploads/724/produto/16854615986616_zoom.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$10,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lápis Retrátil Colorido - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/800x800/375/375178/produto/225918883/l-pis-novo-melu-vpaerqob8r.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$7,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lápis para Olhos - MELU</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top" src="https://assets-belissima.egondola.app/v1/pro_8898_e.jpg" alt="">
+                <div class="card-header text-center ">
+                    R$18,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sabonete Mousse Facial - Ruby Rose</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x700/1379/1379631/produto/200669473/tmp20230127173711193ios-5f1a7d04ee.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$15,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Paleta de Sombras Teen - Jasmyne</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x700/1379/1379631/produto/75034869/20230324_181445455_ios-mnxrrr.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$18,99
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pincel Duplo Profissional - Macrilan</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x700/1379/1379631/produto/123986789/cola-para-cilios-posticos-transparente-e-a-prova-dagua-macrilan-e2fbbd37.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$7,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Cola para Cílios Postiços Transparente e a Prova d'Água</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/600x700/1379/1379631/produto/200682378/tmp20230131171610708ios-fcfef3ab0f.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$10,00
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Cílios Postiços com Fios Volumosos e Longos</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://cdn.awsli.com.br/2500x2500/1379/1379631/produto/123986844/diluidor-de-maquiagem-js01059-jasmyne-d1f88658.jpg"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$7,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Diluidos de Maquiagem Jasmyne</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4 col-xl3">
+                <img class="card-img-top"
+                    src="https://www.casadoscosmeticosweb.com.br/img/products/luisance-paleta-de-glitter-shadow-l3152_1_1000.webp"
+                    alt="">
+                <div class="card-header text-center ">
+                    R$22,90
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Paleta em Glitter Shadow Luisance</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger container">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

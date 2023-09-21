@@ -1,0 +1,51 @@
+@media (min-width: 576px){
+    .principal{
+        background-color: red;
+    }
+}
+@media (min-width: 768px){
+    .principal{
+        background-color: blue;
+    }
+}
+@media (min-width: 992px){
+    .principal{
+        background-color: green;
+    }
+}
+@media (min-width: 1200px){
+    .principal{
+        background-color: grey;
+    }
+}
+@media (min-width: 1400px){
+    .principal{
+        background-color: purple;
+    }
+}
+
+@media (min-width: 576px){
+    .principal2{
+        background-image: url(https://i.pinimg.com/236x/ee/f8/52/eef8526b40aa04a1bf1bb3b7edf5caf9.jpg);
+    }
+}
+@media (min-width: 768px){
+    .principal2{
+        background-image: url(https://i.pinimg.com/236x/fb/01/f8/fb01f8a805eec214d6ff35c1b1d88c43.jpg);
+    }
+}
+@media (min-width: 992px){
+    .principal2{
+        background-image: url(https://i.pinimg.com/236x/c8/be/47/c8be47f8be8603e102d41a1ffc56f56b.jpg);
+    }
+}
+@media (min-width: 1200px){
+    .principal2{
+        background-image: url(https://i.pinimg.com/236x/f7/31/84/f7318479029087a21787f0aeff4e179e.jpg);
+    }
+}
+@media (min-width: 1400qpx){
+    .principal2{
+        background-image: url(https://i.pinimg.com/236x/b3/2d/77/b32d775355af144c41317400d06a26ec.jpg);
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<!--Trabalhando com botões-->
+<body class="container pt-5">
+
+    <!--Sem bootstrap-->
+    <button>Comprar+</button>
+
+    <!--Com bootstrap-->
+    <button class="btn btn-primary text-black">Comprar+</button>
+    <button class="btn btn-danger text-dark">Comprar+</button>
+    <button class="btn btn-success text-warning">Comprar+</button>
+    <button class="btn btn-info text-secondary">Comprar+</button>
+
+    <!--Atribuindo classes de botões em elementos diferentes-->
+    <a href="#" class="btn btn-primary">Outro botão</a>
+    <input type="submit" class="btn btn-success" value="Botão">
+
+    <!--Outline-->
+    <button class="btn btn-outline-primary">Outline</button>
+    <button class="btn btn-outline-warning">Outline2</button>
+     
+    <!--Ocupando linha inteira-->
+    <div class="d-grid w-50">
+        <button class="btn btn-outline-success mt-3">Botão</button>
+    </div>
+
+    <!--Desabilitando o botão-->
+    <div class="d-grid w-50">
+        <button class="btn btn-outline-success btn-lg mt-3" disabled >Botão</button>
+    </div>
+
+</body>
+</html>
